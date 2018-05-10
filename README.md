@@ -1,4 +1,4 @@
-# Chef Essentials on Windows Training Pre-flight
+# Chef Essentials on Unix Training Pre-flight
 
 We are going to verify that attendees are setup properly, and the facilities will not cause issues. 
 
@@ -24,7 +24,7 @@ Verify RDP connectivity:
 
 ### Network Requirements
 
-Outbound: ports 3389 (RDP) and 5985 (WinRM), * .chef.io, * .aws.amazon.com, and if possible, drive.google.com
+Outbound: ports 22 (SSH), * .chef.io, * .aws.amazon.com, and if possible, drive.google.com
 
 We ask that you run the "pre-flight" script that Chef has put together and return the results to us in a timely fashion. To do this, please connect a typical laptop a student might be using to the network we will be utilizing for the class. 
 
