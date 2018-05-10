@@ -26,8 +26,6 @@ $ports = @(
 	@{endpoint = 'portquiz.net'; protocol = 'HTTP'; port = 80},
 	@{endpoint = 'portquiz.net'; protocol = 'HTTPS'; port = 443},
 	@{endpoint = 'portquiz.net'; protocol = 'SSH'; port = 22},
-	@{endpoint = 'portquiz.net'; protocol = 'RDP'; port = 3389},
-	@{endpoint = 'portquiz.net'; protocol = 'WinRM'; port = 5985}
 ) 
 
 function Format-Color ([hashtable] $Colors = @{}, [switch] $SimpleMatch) {
